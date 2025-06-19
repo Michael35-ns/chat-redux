@@ -22,7 +22,7 @@ const Chat = () => {
       {mensaje.length > 0 ? (
         <>
           {mensaje.map((item, index) =>
-            (usuario.uid === item.uid) & mensaje ? (
+            (usuario.uid === item.uid) ? (
               <div className="d-flex justify-content-end mb-2" key={index}>
                 <span className="badge bg-primary rounded-pill">
                   {item.texto}
