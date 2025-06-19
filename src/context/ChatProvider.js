@@ -3,7 +3,7 @@ import { db, auth, provider } from "../firebase";
 export const ChatContext = createContext();
 
 const ChatProvider = (props) => {
-  const dataUsuario = { uid: null, email: null, estado: null };
+
 
   const [usuario, setUsuario] = useState({
     uid: null,
